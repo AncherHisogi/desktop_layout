@@ -10,14 +10,54 @@
 <body>
     <div id = "navTop">
         <div id = "navBar"></div>
-        <div id = "userInfo"></div>
+        <div id = "userInfo">
+            <div class="dropdown1">
+                <button onclick="myFunction1()" class="dropbtn1">User name</button>
+                  <div id="myDropdown1" class="dropdown-content1">
+                    <a href="#home">Home</a>
+                    <a href="#accInfo">Acount info</a>
+                    <a href="#logOut">Log out</a>
+                  </div>
+                </div>
+        </div>
     </div>
     <div id = "container">
     <div id = "grid">
-        <div id = "filter"></div>
-        <div id = "resource"></div>
+        <div id = "filter">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">FILTER</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="#type">Type</a>
+                    <a href="#name">Name</a>
+                    <a href="#state">State</a>
+                    <a href="#user">User</a>
+                  </div>
+            </div>
+        </div>
+        <div id = "resource">
+            <div id="resourceContainer">
+                <div id="resourceGrid">
+                        <div id="resourceFiller"></div>
+                        <div id="resourceFiller"></div>
+                        <div id="resourceFiller"></div>
+                        <div id="resourceFiller"></div>
+                        <div id="resourceFiller"></div>
+                        <div id="resourceFiller"></div>
+                        <div id="resourceFiller"></div>
+                        <div id="resourceFiller"></div>
+                        <div id="resourceFiller"></div>
+                        <div id="resourceFiller"></div>
+                        <div id="resourceFiller"></div>
+                        <div id="resourceFiller"></div>
+                        <div id="resourceFiller"></div>
+                </div>
+            </div>
+            <div id = "resourceControl"></div>
+            <div id = "resourceAdmin"></div>
+        </div>
         <div id = "userAdmin"></div>
         </div>
     </div>
+    <script src = "script.js"></script>
 </body>
 </html>
